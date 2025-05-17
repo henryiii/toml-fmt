@@ -13,7 +13,7 @@ on:
           - minor
           - major
   push:
-    branches: ["main"]
+    branches: ["main", "ci"]
     paths: ["common/**", "pyproject-fmt/**", ".github/workflows/pyproject_fmt_build.yaml"]
   pull_request:
     paths: ["common/**", "pyproject-fmt/**", ".github/workflows/pyproject_fmt_build.yaml"]
